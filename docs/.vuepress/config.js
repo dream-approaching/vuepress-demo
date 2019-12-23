@@ -5,11 +5,7 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'External', link: 'https://google.com' }
-    ],
+    nav: [{ text: 'Guide', link: '/guide/' }],
     sidebar: 'auto'
   }
   // configureWebpack: {
