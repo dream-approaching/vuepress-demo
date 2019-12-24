@@ -1,11 +1,10 @@
 module.exports = {
-  title: 'Static Book',
-  description: 'Just playing around',
+  title: 'Notebook',
+  description: 'note',
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
-    nav: [{ text: 'Guide', link: '/guide/' }],
     sidebar: 'auto'
   }
   // configureWebpack: {
